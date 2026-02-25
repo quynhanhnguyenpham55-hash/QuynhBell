@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f6fb;
+}
+
+/* Tiêu đề */
+h1{
+    text-align:center;
+    padding:20px;
+    color:#2c3e50;
+}
+
+/* Khối CLB */
+.club{
+    background:white;
+    margin:25px auto;
+    padding:20px;
+    border-radius:12px;
+    max-width:900px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.club img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* Nút đăng ký */
+.register{
+    display:block;
+    width:260px;
+    margin:40px auto;
+    text-align:center;
+    padding:15px;
+    background:#ff7675;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:18px;
+}
+.register:hover{background:#e84393}
+
+/* FORM */
+#dangky{
+    margin-top:80px;
+    padding:40px 20px;
+    background:linear-gradient(135deg,#a18cd1,#fbc2eb);
+}
+
+.form-box{
+    max-width:650px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.form-box h2{
+    text-align:center;
+    color:#6c5ce7;
+}
+
+.input-group{margin-bottom:15px}
+
+label{font-weight:bold}
+
+input,select,textarea{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-top:5px;
+}
+
+input:focus,select:focus{
+    outline:none;
+    border-color:#6c5ce7;
+}
+
+.commit{
+    background:#f1f2ff;
+    padding:12px;
+    border-radius:10px;
+    font-size:14px;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg,#6c5ce7,#a29bfe);
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+}
+button:hover{transform:scale(1.05)}
